@@ -1,15 +1,15 @@
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function App() {
+  const [age, setAge] = useState(0)
+  const [doubleage, setdoubleAge] = useState(0)
 
 useEffect(() => {
-  first
+  
 
-  return () => {
-    second
-  }
-}, [third])
+
+}, [age])
 
 
 
