@@ -1,14 +1,12 @@
 
-
-import React, { useEffect } from 'react';
+import React from 'react'
 
 function App() {
-
-  useEffect(() => {
-    console.log("Sirf ek baar chalega");
-  }, []);
-
-  return <h1>Hello</h1>;
+  return (
+    <div>
+      
+    </div>
+  )
 }
 
 export default App
