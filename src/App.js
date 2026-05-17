@@ -1,10 +1,17 @@
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function App() {
 
+useEffect(() => {
+  first
 
-  
+  return () => {
+    second
+  }
+}, [third])
+
+
 
   return (
     <div>
