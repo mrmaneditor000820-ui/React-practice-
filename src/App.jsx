@@ -13,10 +13,6 @@ const handleclick = useCallback( ()=>{
 
 
 
-
-
-
-
   return (
     <>
     <h1>Count Value is {count}</h1>
