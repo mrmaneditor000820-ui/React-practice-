@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function useCounter() {
 
@@ -10,7 +10,7 @@ function useCounter() {
 
 
   return (
-        Increament,Dcreament,Reset
+        {Increament,Dcreament,Reset,count}
   )
 }
 

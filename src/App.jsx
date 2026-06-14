@@ -25,3 +25,21 @@
 
 // export default App
 
+import React from 'react'
+import useCounter from './useCounter'
+
+function App() {
+   
+  const {Increament,Dcreament,Reset,count} = useCounter()
+
+  return (
+    <>
+    <h1>Count value is : {count}</h1>
+    <button onClick={Increament}>Increment</button>
+    <button onClick={Dcreament}>Dcrement</button>
+    <button onClick={Reset}>Reset</button>
+    </>
+  )
+}
+
+export default App
