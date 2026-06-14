@@ -1,9 +1,10 @@
 import React, { memo } from 'react'
 
-function Childcomponent() {
+function Childcomponent({onClick}) {
     console.log("child")
   return (
     <>
+    <button onClick={onClick}>Child click</button>
     </>
   )
 }
